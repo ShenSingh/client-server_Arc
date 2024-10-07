@@ -9,6 +9,7 @@ public class server {
     public static void main(String[] args) {
         boolean flog = false;
         try{
+
             System.out.println("Hello I'm a server");
             ServerSocket serverSocket = new ServerSocket(3000);
             Socket socket = serverSocket.accept();
